@@ -1,0 +1,580 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+  color: #000;
+  background-color: #fff;
+}
+.modo-nocturno {
+  color: #fff;
+  background-color: #151414;
+}
+.modo{
+  position: absolute;
+  top:25px;
+  left: 1350px;
+  height: 30px;
+  
+  background-color: #1a5276;
+}
+.luna{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+
+}
+/***********Logo*********/
+.logo{
+    width: 60px;
+    border-radius: 40px;
+    position: absolute;
+    top: 7px;
+    left: 9px;
+    background-color: #294c82;
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.7);
+}
+
+
+/***********Barra de navegacion - Menu **********/
+#menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1b3358;
+    height: 72px;
+    /* Otros estilos que desees aplicar */
+  }
+  .fixed-menu {
+    /* cuando el menú está fijo */
+    box-shadow: 0 10px 40px rgba(182, 172, 242, 0.1);
+    background-color: #7fa7e4;
+  }
+  
+.barra_nav {
+    width:60%;
+    
+    padding-top: 0px ;
+    display: flex;
+    
+    float: right;
+}
+
+
+
+.barra_nav li{
+    display: inline-block;
+    
+    text-align:center ;
+    
+    
+    background-color: #1b3358;
+    border-radius: 10%;
+}
+
+.barra_nav li a{
+    
+    margin: 15px ;
+    font-size: 15px;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #f5d7db;
+    text-shadow: 2px 2px 3px black;
+    
+}
+/*********************TEXTO TITULOS**************************/
+
+.texto_titulos{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 900;
+  color: rgb(112, 110, 110);
+  text-shadow: 0.5px 0.5px 1.5px rgb(73, 73, 73);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/*************SECCION TITULOS PRINCIPALES *************/
+.oferta_imperdible{
+    text-align: center;
+    
+    font-size: 50px;
+    margin: 0px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    background: url(./../images/ferre.jpg) no-repeat center fixed ;
+    background-size: cover;
+    padding-top:150px;
+    
+}
+.genteconstruccion{
+    text-align: center;
+    
+    font-size: 40px;
+    margin: 0px 0px;
+    
+    
+    background: url(./../images/construccion.jpg) no-repeat center fixed ;
+    background-size: cover;
+    padding-top:150px;
+    
+}
+.genteconstruccion h1{
+    font-size: larger;
+    font-weight: 3000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow:  2px 2px 3px black;
+    color: rgb(236, 217, 217);
+}
+.oferta_imperdible h3{
+    font-size:larger;
+    font-weight: 3000;
+    color: rgb(236, 217, 217);
+    text-shadow: 2px 2px 3px black;
+    
+}
+.herramientas{
+  text-align: center;
+  
+  font-size: 40px;
+  margin: 0px 0px;
+  
+  
+  background: url(./../images/herramientasportada.png) no-repeat center fixed ;
+  background-size: cover;
+  padding-top:150px;
+  
+}
+.herramientas h1{
+  font-size: larger;
+  font-weight: 3000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow:  2px 2px 3px black;
+  color: rgb(236, 217, 217);
+}
+.plomeria{
+  text-align: center;
+  
+  font-size: 40px;
+  margin: 0px 0px;
+  
+  
+  background: url(./../images/plomeria.webp) no-repeat center fixed ;
+  background-size: cover;
+  padding-top:150px;
+  
+}
+.plomeria h1{
+  font-size: larger;
+  font-weight: 3000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow:  2px 2px 3px black;
+  color: rgb(236, 217, 217);
+}
+.electricidad{
+  text-align: center;
+  
+  font-size: 40px;
+  margin: 0px 0px;
+  
+  
+  background: url(./../images/electricidad.jpg) no-repeat center fixed ;
+  background-size: cover;
+  padding-top:150px;
+  
+}
+.electricidad h1{
+  font-size: larger;
+  font-weight: 3000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow:  2px 2px 3px black;
+  color: rgb(236, 217, 217);
+}
+.tornillos h1{
+  font-size: larger;
+  font-weight: 3000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow:  2px 2px 3px black;
+  color: rgb(236, 217, 217);
+}
+
+.tornillos{
+  text-align: center;
+  
+  font-size: 40px;
+  margin: 0px 0px;
+  
+  
+  background: url(./../images/tornillosportada.jpg) no-repeat center fixed ;
+  background-size: cover;
+  padding-top:150px;
+  
+}
+
+.carrito h1{
+  font-size: larger;
+  font-weight: 3000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow:  2px 2px 3px black;
+  color: rgb(236, 217, 217);
+}
+
+.carrito{
+  text-align: center;
+  
+  font-size: 40px;
+  margin: 0px 0px;
+  
+  
+  background: url(./../images/carritoportada.jpg) no-repeat center fixed ;
+  background-size: cover;
+  padding-top:150px;
+  
+}
+/***** SECCION DESTACADOS*****/
+
+
+.deptos_destacados{
+    display: flex;
+    justify-content: space-around ;
+}
+
+.cajas_deptos{
+    width:260px;
+    height: 260px;
+    background: white;
+    
+    text-decoration:solid;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    
+    margin: 5px;
+    border-radius: 7px;
+    
+    box-shadow: 5px 5px 20px 4px #7a6a6a;
+    
+}
+
+.cajas_deptos a{
+    text-decoration:none;
+    color: rgb(63, 55, 55);
+    font-size: 10px;
+}
+.texto_destacadas_secciones h5{
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow:1px 1px 2px rgb(48, 42, 42);
+  font-size: 15px;    
+}
+
+.texto_destacadas{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:1px 1px 2px rgb(48, 42, 42);    
+}
+.bpn{
+    height: 415px;
+    
+
+}
+
+
+/********** FOOTER **********/
+.pie_pagina{
+    background-color: #f8f4f2;
+}
+
+.texto_redes{
+    text-align: center;
+    color: rgb(14, 13, 13);
+    font-weight: 600;
+    font-size: 30px;
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.tamanio_iconos_redes{
+    width: 60px;
+    height: 40px;
+}
+.tamanio_icono_carrito{
+  width: 30px;
+  height: 30px;
+}
+.icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-container i {
+    margin-right: 5px;
+  }
+  .icon-container img {
+    margin-right: 5px;
+  }  
+.contacto {
+    position: relative;
+   
+  }
+  .top-left,
+.top-right,
+.bottom-left,
+.bottom-right {
+  position: absolute;
+}
+  
+  .bottom-left {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 725px;
+  height: 413px;
+  background-color: #f8f4f2;
+  
+  }
+  .bottom-left_construccion {
+    position: absolute;
+    top: 1200px;
+    left: 0;
+    width: 1422px;
+  height: 70px;
+  background-color: #f8f4f2;
+  color: #1b3358;
+  
+  }
+  .bottom-left_carrito {
+    position: absolute;
+    top: 3070px;
+    left: 0;
+    width: 1422px;
+  height: 70px;
+  background-color: #f8f4f2;
+  color: #1b3358;
+  
+  }
+  .bottom-left_herramientas {
+    position: absolute;
+    top: 1470px;
+    left: 0;
+    width: 1422px;
+  height: 70px;
+  background-color: #f8f4f2;
+  color: #1b3358;
+  
+  }
+  .bottom-left_plomeria {
+    position: absolute;
+    top: 890px;
+    left: 0;
+    width: 1422px;
+  height: 70px;
+  background-color: #f8f4f2;
+  color: #1b3358;
+  
+  }
+  .top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 715px;
+  height: 600x;
+  background-color: #f8f4f2;
+  }
+/*************FORMULARIO DE CONSULTA*****************/
+
+form {
+    background-color: #f8f4f2;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .pedido{
+    text-align: center;
+    color: #1b3358;
+  }
+  .contacto{
+    background-color: #f8f4f2 ;
+    color: #1b3358;
+  }
+  textarea.cuadrodialogo{
+    margin-left: 142px;
+
+  }
+  label {
+    
+    display:inline;
+    margin-bottom: 7px;
+    margin-right:40px ;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1b3358;
+  }
+  label.observaciones{
+    margin-right: 54px;
+    
+
+  }
+  label.email{
+    margin-right: 75px;
+
+  }
+  label.nombre{
+    margin-right: 55px;
+
+  }
+  label.apellido{
+    margin-right: 55px;
+
+  }
+  input[type="text"],
+  select,
+  textarea.cuadrodialogo {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 12px;
+  }
+  
+  select {
+    height: 36px;
+  }
+  
+  textarea.cuadrodialogo {
+    height: 200px;
+  }
+  
+  .date-inputs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .date-inputs input[type="text"] {
+    width: 60px;
+  }
+  
+  input[type="submit"] {
+    background-color: #1b3358;
+    color: #ffffff;
+    padding: 7px 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .invalid-input {
+    border-color: red;
+  }
+
+
+/*********************CARRITO*******************/
+.mi-boton {
+  background-color: rgb(2, 2, 43);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+.gris {
+  color: gray;
+}
+
+
+
+.myTable{
+  width: 50%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 1000px;
+
+}
+thead {
+  background-color: #333;
+  color: #fff;
+}
+th {
+  padding: 12px;
+  text-align: left;
+}
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  color: #335587;
+}
+
+
+
+a.delete-link {
+  color: #c0392b;
+  text-decoration: none;
+}
+
+
+.button {
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #1a5276;
+}
+textarea.total{
+  width: 200px;
+  height: 50px;
+  border-color: #1b3358;
+  background-color: khaki;
+  font-size: larger;
+  text-align: center;
+  align-items: center;
+  border-radius: 9px;
+  
+}
+input.cant{
+width: 60px;
+height: 25px;
+border-color:#1b3358 ;
+}
+textarea.salida{
+  width: 70px;
+  height: 30px;
+  border-radius: 9px;
+  border-color: #1b3358;
+  
+}
+.sumatotal{
+  position: relative;
+  top: 10px;
+  left: 700px;
+  width: 700px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  gap: 20px
+}
+.iconoscarrito{
+  width: 25px;
+
+}
+

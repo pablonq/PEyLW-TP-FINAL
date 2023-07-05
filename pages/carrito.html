@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" href="./../css/style-index.css">
+        <script src="./../js/index.js"></script>
+        
+
+    <title>Ferreteria Chaneton</title>  
+</head>
+
+<body onload="iniciarTabla()">
+    <div id="menu-container"><br>
+        
+    <header class="cabecera">
+        <nav class="barra_nav">
+            <div>
+                <a href="./../index.html"> <img src="../images/logo.png" class="logo" alt="Logo"></a>
+                <button class="modo" id="modoNocturno"><img src="../images/luna.png" class="luna" alt="Logo"></button>
+                <script src="./../js/index.js"></script>
+            </div>
+            <ul class="menu">
+                <!--Aca agrego todos los items del menu-->
+                <li><a href="./../index.html" class="color_menu">Inicio</a></li>
+                <li><a href="construccion.html" class="color_menu">Construccion</a></li>
+                <li><a href="herramientas.html" class="color_menu">Herramientas</a></li>
+                <li><a href="plomeria.html"  class="color_menu">Plomeria</a></li>
+                <li><a href="electricidad.html"  class="color_menu">Electricidad</a></li>
+                <li><a href="tornillos.html"  class="color_menu">Tornillos</a></li>
+                
+                
+                <li><a href="#contacto"  class="color_menu">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+    
+    <div class="titulo">
+
+    </div>
+
+
+    <main>
+
+        <br><br>
+        <br>
+      
+        
+            
+            <div class="carrito">
+                <h1>TU COMPRA</h1>
+                <br><br>
+                <br>
+                
+            </div>     
+        
+        
+
+        <br><br>
+
+         
+
+        </div><br><br><br><br>
+        <div class="deptos_destacados">
+            <table id="tablaProductos" class="my table" >
+               
+                    <thead>
+                      <tr>
+                        <th>ITEM</th>
+                        <th>DESCRIPCIÓN</th>
+                        <th>CANTIDAD</th>
+                        <th>$ PRECIO</th>
+                        <th>SUBTOTAL</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><img src="./../images/cemento.jpg" class="iconoscarrito" alt="prod1"></td>
+                        <td>Cemento x 50 Kg</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td id="valor">2700</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/cal.png" class="iconoscarrito" alt="Producto 2"></td>
+                        <td>Cal x 30Kg</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>1500</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/construkor.jpg" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Pegamento Piso x 30Kg</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>1800</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/yeso.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Yeso x 30 Kg</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>2900</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/HIERRO.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Hierro del 8 x 12mts</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>3200</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/arena.jpg" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Arena m3</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>15800</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/pastina.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Pastina impermeable x 5Kg</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>2300</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/hidrofugo.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Hidrofugo x 20Kg</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>5700</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/POXIMIX.jpg" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Poximix x 5Kg</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>4700</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/Estribos.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Pack Estribos 10x10</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>6600</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/cables.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Rollo cable 2mm x 100mts</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>4900</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/caniocorrugado.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Rollo caño corrugado 25mm x 100mts</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>5800</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/fichahembra.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Ficha hembra</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>550</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/fichamacho.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Ficha macho</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>670</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/lamparaled.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Lampara led 9W</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>320</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/llave.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Modulo llave</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>850</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/portalampara.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Portalampara</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>254</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/toma.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Modulo toma</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>460</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/alicate.jpg" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Alicate corte diagonal</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>2850</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/CUCHARA.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Cuchara de Albañil</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>2850</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/DESTORNILLADOR.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Kit Destornilladores</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>5800</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/discocorte.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Disco corte 4 1/2</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>1000</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/discodiamantado.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Disco dimantado</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>2400</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/discos-de-corte-para-madera.jpg" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Disco p/madera</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>3100</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/llavefrancesa.webp" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Llave francesa 12</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>5780</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/llaveinglesa.webp" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Llave inglesa 12</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>3950</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/martillo.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Martillo galponero</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>2400</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/maza.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Maza 10 Kg</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>5300</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/nivel.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Nivel 15</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>1200</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/serrucho.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Serrucho costilla</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>2800</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/pala.jpg" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Pala corazon</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>7800</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/caniofusionagua.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Caño Fusion agua x 25mm</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>2400</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/caniofusiongas.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Caño Fusion gas x 25mm</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>8800</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/caniopolietileno.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Manguera polietileno x 100mts</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>10200</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/cañopvc.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Caño PVC 110</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>5400</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/bulon.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Bulon 2 7/8</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>650</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/pyton.png"  class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Pyton c/tope tipo escuadra</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>140</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/Remaches.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Remaches x 4mm</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>75</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/tarugos.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Tarugos 8</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>62</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/tornillomadera.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Tornillo madera 8mm</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>79</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/tornillotecho.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Tornillo p/techo x 14mm</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>245</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+                      <tr>
+                        <td><img src="./../images/tuerca.png" class="iconoscarrito" alt="Producto 3"></td>
+                        <td>Tuerca 2 7/8</td>
+                        <td><input type="text" id="1" class="cant" value="0"><br/></td>
+                        <td>210</td>
+                        <td><textarea id="salida1" name="salida1" class="salida" readonly></textarea></td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                  
+                  
+                  
+                </table>    
+        <br/>
+        <br/>
+        <br><br><br><br><br>
+       
+    
+                
+                                
+              
+
+        </div>
+        <div class="sumatotal">
+            <h2>IMPORTE TOTAL</h2>
+            <textarea id="salidatotal" name="salida" class="total" ></textarea>
+            <input type="submit" value="Enviar Compra" onclick="return multiplicacionfilas();">
+        </div>
+        
+    </main>
+    <br><br>
+        
+    <footer class="pie_pagina_construccion">
+        
+
+       
+        
+        <div class="contacto_construccion">
+            <br>
+
+            
+            <div id="contacto" class="bottom-left_carrito"><br>
+                <a href="https://goo.gl/maps/8oWXFDyiiK51CspQ7"><img src="./../images/ubicacion.png" alt="Icono de WhatsApp" class="tamanio_iconos_redes"></a>
+  <span>UBICACION: calle Chaneton 1620</span>
+  <a href="https://api.whatsapp.com/send?phone=+5492996339903&text=Hola!..Cual%20es%20tu%20consulta?"><img src="./../images/whatsapp.png" alt="Icono de WhatsApp" class="tamanio_iconos_redes"></a>
+  <span>Mandanos un mensaje</span> 
+                
+            
+            </div>
+            
+          </div>
+          
+       
+
+    </footer>
+
+    
+</body>
+</html>
